@@ -21,13 +21,13 @@
 
 ```shell
 cd tenholes-downloader
-./download_new_first_3.sh
+bash download_new_first_3.sh
 ```
 
 脚本会隐藏提示输入当前登录会话的 `ten_auth1` Cookie 值；输入不会回显，也不会写入配置文件。确认前三页流程符合预期后，可拉取完整列表：
 
 ```shell
-./download_all.sh
+bash download_all.sh
 ```
 
 详细说明见 [`tenholes-downloader/README.md`](tenholes-downloader/README.md)。
