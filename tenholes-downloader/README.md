@@ -21,7 +21,7 @@ macOS 和常见 Linux 发行版通常已经具备这些工具。
 在本目录运行前三页版本：
 
 ```shell
-./download_new_first_3.sh
+bash download_new_first_3.sh
 ```
 
 脚本随后显示 `ten_auth1 cookie value:`。粘贴 Cookie 值并按回车；终端不会显示输入内容。Cookie 只在本次进程及其下载子进程中使用，不会被写入配置文件。
@@ -29,13 +29,13 @@ macOS 和常见 Linux 发行版通常已经具备这些工具。
 确认输出无误后运行完整版本：
 
 ```shell
-./download_all.sh
+bash download_all.sh
 ```
 
 可通过环境变量调整并发数，但不要把 Cookie 写进环境变量或命令行参数：
 
 ```shell
-TENHOLES_CONCURRENCY=4 ./download_all.sh
+TENHOLES_CONCURRENCY=4 bash download_all.sh
 ```
 
 ## 获取 Cookie 值
