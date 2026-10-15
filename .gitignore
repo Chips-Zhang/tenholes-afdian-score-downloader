@@ -1,0 +1,55 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python caches, environments, coverage and packages
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Legacy or generated build output
+target/
+*.class
+*.jar
+*.log
+
+# Downloaded content, temporary files and crawler caches
+**/output/
+**/.work/
+*.part
+*.tmp
+
+# Local configuration and credentials
+*.properties
+.env
+.env.*
+!.env.example
+cookies.txt
+cookie*.txt
+auth*.txt
+token*.txt
+credentials*.json
+secrets.*
+*.pem
+*.key
+
+# Local Git metadata must never be copied into a release bundle
+.git/
